@@ -1,0 +1,16 @@
+{
+  "platform": "cisco",
+  "hostname": "access-sw01",
+  "domain_name": "example.local",
+  "interface": "FastEthernet0/1",
+  "interface_mode": "routed",
+  "ip_cidr": "192.168.111.91/24",
+  "gateway": "192.168.111.1",
+  "ssh_username": "netadmin",
+  "serial": {
+    "port": null,
+    "baudrate": 9600
+  },
+  "minimum_password_length": 12,
+  "command_timeout_seconds": 15
+}
